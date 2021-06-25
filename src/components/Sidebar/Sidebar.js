@@ -5,7 +5,6 @@ import * as s from './Sidebar.styles';
 
 const Sidebar = props => {
   const { 
-    backgroundImage = '', 
     sidebarHeader = {
       fullName: '',
       shortName: ''
@@ -180,7 +179,7 @@ const Sidebar = props => {
   });
 
   return (
-    <s.SidebarContainer   onMouseEnter={() => setSidebarState(!isSidebarOpen)}  onMouseLeave={() => setSidebarState(!isSidebarOpen)}      isSidebarOpen={isSidebarOpen} colorPalette={colorPalette}>
+    <s.SidebarContainer   onMouseEnter={() => setSidebarState(true)}  onMouseLeave={() => setSidebarState(false)}      isSidebarOpen={isSidebarOpen} colorPalette={colorPalette}>
       <s.SidebarHeader font={fonts.header}>{header}</s.SidebarHeader>
       <s.MenuItemContainer>{menuItemsJSX}</s.MenuItemContainer>
     </s.SidebarContainer>

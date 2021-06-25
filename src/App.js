@@ -22,7 +22,7 @@ const App = () => {
         { name: 'Brazil', to: '/brazil'},
         { name: 'India', to: '/india'}
       ] },
-    {name: 'Blog', to: '/blog', icon: '/icons/blog.svg', subMenuItems: [] },
+    {name: 'simultor', to: '/Simulator', icon: '/icons/blog.svg', subMenuItems: [] },
     {name: 'Services', to: '/services', icon: '/icons/services.svg', subMenuItems: [] },
     {name: 'Contacts', to: '/contacts', icon: '/icons/contacts.svg', subMenuItems: [] }
   ];

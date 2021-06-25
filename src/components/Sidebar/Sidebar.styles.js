@@ -5,6 +5,7 @@ export const SidebarContainer = styled.div`
   margin-top:5rem;
   max-width: 280px;
   min-width: 80px;
+  z-index: 2;
   background-image: linear-gradient(
     315deg,
     ${p => p.colorPalette.bgColor1} 0%,
